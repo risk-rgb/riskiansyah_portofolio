@@ -51,7 +51,7 @@
 }
 
 body {
-  background: #030412;
+  background: var(--color-primary);
   font-family: "Funnel Display", sans-serif;
   color: white;
   scroll-behavior: smooth;
@@ -94,9 +94,11 @@ body {
 .nav-link {
   @apply text-lg md:text-base hover:text-white transition-colors;
 }
+
 /* Button Components */
 .btn {
-  @apply relative px-1 py-4 text-sm text-center rounded-full font-extralight bg-primary w-[12rem] cursor-pointer overflow-hidden;
+  @apply relative px-1 py-4 text-sm text-center rounded-full font-extralight w-[12rem] cursor-pointer overflow-hidden;
+  background-color: var(--color-primary);
 }
 
 /* About Section */
@@ -117,14 +119,17 @@ body {
 }
 
 .grid-default-color {
-  @apply p-6 bg-gradient-to-b from-storm to-indigo rounded-2xl;
+  @apply p-6 rounded-2xl;
+  background-image: linear-gradient(to bottom, var(--color-storm), var(--color-indigo));
 }
 
 .grid-special-color {
-  @apply p-6 bg-gradient-to-b from-royal to-lavender rounded-2xl;
+  @apply p-6 rounded-2xl;
+  background-image: linear-gradient(to bottom, var(--color-royal), var(--color-lavender));
 }
 .grid-black-color {
-  @apply p-6 bg-gradient-to-tl from-[#3A3A3A] via-[#242424] to-[#3A3A3A] rounded-2xl;
+  @apply p-6 rounded-2xl;
+  background-image: linear-gradient(to top left, #3A3A3A, #242424, #3A3A3A);
 }
 
 /* Contact Section*/
@@ -133,7 +138,8 @@ body {
 }
 
 .field-input {
-  @apply w-full min-h-10 rounded-md px-3 py-2 text-sm bg-white/10 transition duration-200 placeholder-neutral-500 border border-white/10 mt-2;
+  @apply w-full min-h-10 rounded-md px-3 py-2 text-sm transition duration-200 placeholder-neutral-500 border border-white/10 mt-2;
+  background-color: rgba(255,255,255,0.1);
 }
 
 .field-input-focus {
