@@ -1,35 +1,41 @@
 import { motion, AnimatePresence } from "motion/react";
-const Alert = ({ type, text }) => {
-  const alertVarients = {
+
+const Alert = ({ type = "success", text = "" }) => {
+  const alertVariants = {
     hidden: { opacity: 0, y: 50, scale: 0.8 },
     visible: { opacity: 1, y: 0, scale: 1 },
     exit: { opacity: 0, y: -50, scale: 0.8 },
   };
+
+  const bgColor = type === "danger" ? "bg-red-800" : "bg-royal";
+  const badgeColor = type === "danger" ? "bg-red-500" : "bg-lavender";
+  const badgeText = type === "danger" ? "Failed" : "Success";
+
   return (
     <AnimatePresence>
-      <motion.div
-        className="fixed z-50 flex items-center justify-center bottom-5 right-5"
-        initial="hidden"
-        animate="visible"
-        exit="exit"
-        variants={alertVarients}
-        transition={{ duration: 0.3, ease: "easeInOut" }}
-      >
-        <div
-          className={`p-2 ${
-            type === "danger" ? "bg-red-800" : "bg-royal"
-          } items-center text-indigo-100 leading-none lg:rounded-full flex lg:inline-flex rounded-md p-5`}
+      {text && (
+        <motion.div
+          className="fixed bottom-5 right-5 z-50 flex items-center justify-center"
+          initial="hidden"
+          animate="visible"
+          exit="exit"
+          variants={alertVariants}
+          transition={{ duration: 0.3, ease: "easeInOut" }}
+          role="alert"
+          aria-live="assertive"
         >
-          <p
-            className={`flex rounded-full ${
-              type === "danger" ? "bg-red-500" : "bg-lavender"
-            } uppercase px-2 py-1 text-xs font-semibold mr-3`}
+          <div
+            className={`flex items-center gap-3 rounded-md px-5 py-3 text-indigo-100 leading-none ${bgColor}`}
           >
-            {type === "danger" ? "Failed" : "Success"}
-          </p>
-          <p className="mr-2 text-left">{text}</p>
-        </div>
-      </motion.div>
+            <span
+              className={`rounded-full px-2 py-1 text-xs font-semibold uppercase ${badgeColor}`}
+            >
+              {badgeText}
+            </span>
+            <p className="text-sm">{text}</p>
+          </div>
+        </motion.div>
+      )}
     </AnimatePresence>
   );
 };

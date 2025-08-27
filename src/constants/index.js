@@ -10,30 +10,12 @@ export const myProjects = [
       "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
       "Added payment systems, localization, and product filtering for functionality improvements.",
     ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/accessories.jpg",
+    image: "assets/projects/accessories.jpg",
     tags: [
-      {
-        id: 1,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
-      },
-      {
-        id: 2,
-        name: ".Net",
-        path: "/assets/logos/dotnet.svg",
-      },
-      {
-        id: 3,
-        name: "Ef Core",
-        path: "/assets/logos/efcore.png",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
+      { id: 1, name: "C#", path: "assets/logos/csharp.svg" },
+      { id: 2, name: ".Net", path: "assets/logos/dotnet.svg" },
+      { id: 3, name: "Ef Core", path: "assets/logos/efcore.png" },
+      { id: 4, name: "TailwindCSS", path: "assets/logos/tailwindcss.svg" },
     ],
   },
   {
@@ -47,30 +29,12 @@ export const myProjects = [
       "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
       "Connected to a secure SQLite database for user data storage.",
     ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/auth-system.jpg",
+    image: "assets/projects/auth-system.jpg",
     tags: [
-      {
-        id: 1,
-        name: "Auth0",
-        path: "/assets/logos/auth0.svg",
-      },
-      {
-        id: 2,
-        name: "React",
-        path: "/assets/logos/react.svg",
-      },
-      {
-        id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
+      { id: 1, name: "Auth0", path: "assets/logos/auth0.svg" },
+      { id: 2, name: "React", path: "assets/logos/react.svg" },
+      { id: 3, name: "SQLite", path: "assets/logos/sqlite.svg" },
+      { id: 4, name: "TailwindCSS", path: "assets/logos/tailwindcss.svg" },
     ],
   },
   {
@@ -84,30 +48,12 @@ export const myProjects = [
       "Designed responsive UI components with Tailwind CSS for an enhanced UX.",
       "Integrated SQLite for efficient client-side database storage.",
     ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/blazor-app.jpg",
+    image: "assets/projects/blazor-app.jpg",
     tags: [
-      {
-        id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
-      },
-      {
-        id: 2,
-        name: ".NET Core",
-        path: "/assets/logos/dotnetcore.svg",
-      },
-      {
-        id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
+      { id: 1, name: "Blazor", path: "assets/logos/blazor.svg" },
+      { id: 2, name: ".NET Core", path: "assets/logos/dotnetcore.svg" },
+      { id: 3, name: "SQLite", path: "assets/logos/sqlite.svg" },
+      { id: 4, name: "TailwindCSS", path: "assets/logos/tailwindcss.svg" },
     ],
   },
   {
@@ -121,30 +67,12 @@ export const myProjects = [
       "Implemented a scripting system for easy game customization.",
       "Optimized performance with multi-threading and efficient memory management.",
     ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/game-engine.jpg",
+    image: "assets/projects/game-engine.jpg",
     tags: [
-      {
-        id: 1,
-        name: "C++",
-        path: "/assets/logos/cplusplus.svg",
-      },
-      {
-        id: 2,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
-      },
-      {
-        id: 3,
-        name: "Git",
-        path: "/assets/logos/git.svg",
-      },
-      {
-        id: 4,
-        name: "Microsoft",
-        path: "/assets/logos/microsoft.svg",
-      },
+      { id: 1, name: "C++", path: "assets/logos/cplusplus.svg" },
+      { id: 2, name: "C#", path: "assets/logos/csharp.svg" },
+      { id: 3, name: "Git", path: "assets/logos/git.svg" },
+      { id: 4, name: "Microsoft", path: "assets/logos/microsoft.svg" },
     ],
   },
   {
@@ -158,30 +86,12 @@ export const myProjects = [
       "Optimized SEO and page speed using Vite.js for fast builds.",
       "Implemented custom widgets and plugin compatibility for extended functionality.",
     ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/wordpress-theme.jpg",
+    image: "assets/projects/wordpress-theme.jpg",
     tags: [
-      {
-        id: 1,
-        name: "WordPress",
-        path: "/assets/logos/wordpress.svg",
-      },
-      {
-        id: 2,
-        name: "HTML5",
-        path: "/assets/logos/html5.svg",
-      },
-      {
-        id: 3,
-        name: "CSS3",
-        path: "/assets/logos/css3.svg",
-      },
-      {
-        id: 4,
-        name: "Vite.js",
-        path: "/assets/logos/vitejs.svg",
-      },
+      { id: 1, name: "WordPress", path: "assets/logos/wordpress.svg" },
+      { id: 2, name: "HTML5", path: "assets/logos/html5.svg" },
+      { id: 3, name: "CSS3", path: "assets/logos/css3.svg" },
+      { id: 4, name: "Vite.js", path: "assets/logos/vitejs.svg" },
     ],
   },
   {
@@ -195,30 +105,12 @@ export const myProjects = [
       "Added a quiz system with dynamic question generation and real-time grading.",
       "Integrated Stripe API for secure payment processing.",
     ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/elearning.jpg",
+    image: "assets/projects/elearning.jpg",
     tags: [
-      {
-        id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
-      },
-      {
-        id: 2,
-        name: "Azure",
-        path: "/assets/logos/azure.svg",
-      },
-      {
-        id: 3,
-        name: "Stripe",
-        path: "/assets/logos/stripe.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
+      { id: 1, name: "Blazor", path: "assets/logos/blazor.svg" },
+      { id: 2, name: "Azure", path: "assets/logos/azure.svg" },
+      { id: 3, name: "Stripe", path: "assets/logos/stripe.svg" },
+      { id: 4, name: "TailwindCSS", path: "assets/logos/tailwindcss.svg" },
     ],
   },
 ];
@@ -227,17 +119,17 @@ export const mySocials = [
   {
     name: "WhatsApp",
     href: "https://wa.me/085776652245",
-    icon: "/assets/socials/whatsApp.svg",
+    icon: "assets/socials/whatsApp.svg",
   },
   {
     name: "Linkedin",
     href: "https://www.linkedin.com/in/riski-ansyah-0a4b44212/",
-    icon: "/assets/socials/linkedIn.svg",
+    icon: "assets/socials/linkedIn.svg",
   },
   {
     name: "Instagram",
     href: "https://www.instagram.com/risiki10/",
-    icon: "/assets/socials/instagram.svg",
+    icon: "assets/socials/instagram.svg",
   },
 ];
 
@@ -245,7 +137,7 @@ export const experiences = [
   {
     title: "Software Developer",
     job: "Security & Defense Projects",
-    date: "2021-2023",
+    date: "2021–2023",
     contents: [
       "Enhanced application security and developed new features, adhering to standards set by the Passive Defense Organization and National Cyberspace Center.",
       "Designed and implemented intuitive map interfaces using MapsUI, enhancing user experience and enabling seamless interactive map integration.",
@@ -257,10 +149,10 @@ export const experiences = [
   {
     title: "Back-End Developer",
     job: "Car Manufacture",
-    date: "2023-2024",
+    date: "2023–2024",
     contents: [
       "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
-      "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
+      "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control.",
       "✅ Implemented secure APIs, following ISO 26262 automotive safety standards.",
       "✅ Ensured data privacy for customers and partners through industry-compliant protocols.",
       "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
@@ -269,13 +161,14 @@ export const experiences = [
   {
     title: "Freelance Developer",
     job: "Self-Employed",
-    date: "2025-Present",
+    date: "2025–Present",
     contents: [
       "Created a personal portfolio using Three.js, React, Vite, and WebAPI to showcase technical expertise.",
       "Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies.",
     ],
   },
 ];
+
 export const reviews = [
   {
     name: "Jack",
